@@ -98,7 +98,7 @@
             this.openGame.Name = "openGame";
             this.openGame.Size = new System.Drawing.Size(132, 27);
             this.openGame.TabIndex = 6;
-            this.openGame.Text = "Open on Browser";
+            this.openGame.Text = "Open in Browser";
             this.openGame.UseVisualStyleBackColor = true;
             this.openGame.Click += new System.EventHandler(this.openGame_Click);
             // 
@@ -171,7 +171,7 @@
             this.openSoftware.Name = "openSoftware";
             this.openSoftware.Size = new System.Drawing.Size(132, 27);
             this.openSoftware.TabIndex = 6;
-            this.openSoftware.Text = "Open on Browser";
+            this.openSoftware.Text = "Open in Browser";
             this.openSoftware.UseVisualStyleBackColor = true;
             this.openSoftware.Click += new System.EventHandler(this.openSoftware_Click);
             // 
@@ -243,7 +243,7 @@
             this.openMovie.Name = "openMovie";
             this.openMovie.Size = new System.Drawing.Size(132, 27);
             this.openMovie.TabIndex = 6;
-            this.openMovie.Text = "Open on Browser";
+            this.openMovie.Text = "Open in Browser";
             this.openMovie.UseVisualStyleBackColor = true;
             this.openMovie.Click += new System.EventHandler(this.openMovie_Click);
             // 
