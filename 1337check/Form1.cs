@@ -21,9 +21,9 @@ namespace _1337check
             var resMovie = check.movie();
 
             //change groupbox attributes
-            nameSoftware.Text = resApp.Item1 + "\n" + resApp.Item2 + "\n" + "Seeders: " + resApp.Item4 + "\n" +" Leechers: " + resApp.Item3;
-            nameGame.Text = resGame.Item1 + "\n" + resGame.Item2 + "\n" + "Seeders: " + resGame.Item4 + "\n" + " Leechers: " + resGame.Item3;
-            nameMovie.Text = resMovie.Item1 + "\n" + resMovie.Item2 + "\n" + "Seeders: " + resMovie.Item4 + "\n" + " Leechers: " + resMovie.Item3;
+            nameSoftware.Text = resApp.Item1 + "\n" + resApp.Item2 + "\n" + "Seeders: " + resApp.Item4 + "\n" +"Leechers: " + resApp.Item3;
+            nameGame.Text = resGame.Item1 + "\n" + resGame.Item2 + "\n" + "Seeders: " + resGame.Item4 + "\n" + "Leechers: " + resGame.Item3;
+            nameMovie.Text = resMovie.Item1 + "\n" + resMovie.Item2 + "\n" + "Seeders: " + resMovie.Item4 + "\n" + "Leechers: " + resMovie.Item3;
         }
 
         private void nomegame_TextChanged(object sender, EventArgs e)
@@ -76,6 +76,11 @@ namespace _1337check
         {
             loadReload();
             MessageBox.Show("Reloaded!", "Done!");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Process.Start(new ProcessStartInfo("https://github.com/BombeT0/1337-Data-Scraper" + movie.Item5) { UseShellExecute = true });
         }
     }
 }
