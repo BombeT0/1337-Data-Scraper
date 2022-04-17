@@ -80,7 +80,7 @@ namespace _1337check
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Process.Start(new ProcessStartInfo("https://github.com/BombeT0/1337-Data-Scraper" + movie.Item5) { UseShellExecute = true });
+            Process.Start(new ProcessStartInfo("https://github.com/BombeT0/1337-Data-Scraper") { UseShellExecute = true });
         }
     }
 }
